@@ -1,0 +1,52 @@
+
+/* Changes the color of the body, article, and horizontalNavigation style*/
+body {
+    background-image: linear-gradient(to right, #692800 10%, #220929 30%);
+}
+
+body > article {
+    background-color: #090929;
+    color: white;
+
+}
+
+/* Navigation background colors */
+
+body > header > nav.horizontalNavigation li {
+    background-color: #441452;
+    color: white;
+}
+
+body > header > nav.horizontalNavigation li a {
+    background-color: #441452;
+    color: white;
+}
+
+/* Section column background colors */
+
+section#leftColumn1 {
+    background-color: #090929;
+}
+
+section#rightColumn {
+    background-color: #090929;
+}
+
+section#leftColumn2 {
+    background-color: #090929;
+}
+
+/* footer background color */
+
+footer {
+    background-image: linear-gradient(to right, #220929 20%, #692800 );
+    color: white;
+}
+
+footer p#footerLeft a {
+    color: white;
+}
+
+footer p#footerCenter a {
+    color: white;
+}
