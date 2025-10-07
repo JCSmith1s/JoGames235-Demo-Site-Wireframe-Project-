@@ -53,16 +53,13 @@ section#leftColumn1 p {
     margin-top: 225px;
 }
 
-section#leftColumn1 img{
+section#leftColumn1 iframe{
     float: right;
-    width: 50%;
-    height: 100%;
-    margin-top: 20px;
-    max-height: 600px;
+    padding-top: 65px;
 }
 
 section#leftColumn2 {
-    float: left;
+    float: right;
     width: 100%;
     text-align: center;
 }
@@ -71,12 +68,9 @@ section#leftColumn2 p {
     margin-top: 180px;
 }
 
-section#leftColumn2 img{
-    float: right;
-    width: 50%;
-    height: 100%;
-    margin-top: 20px;
-    max-height: 600px;
+section#leftColumn2 iframe{
+    float: left;
+    padding-top: 37px;
 }
 
 
@@ -108,13 +102,17 @@ footer h1 {
     text-align: center;
 }
 
-footer p#footerLeft a {
+footer a {
     text-decoration: none;
 }
 
-footer p#footerCenter {
-    text-align: center;
+#footerLeft {
+    width: 200px;
 }
-footer p#footerCenter a {
-    text-decoration: none;
+
+#footerCenter {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    translate: 545px -120px;
 }

@@ -12,6 +12,13 @@ body > article {
 
 /* Navigation background colors */
 
+#navigation1 {
+    background: linear-gradient(to right, #ff6200 10%, #FF97F6 30%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 body > header > nav.horizontalNavigation li {
     background-color: #441452;
     color: white;
@@ -43,11 +50,20 @@ footer {
     color: white;
 }
 
-footer p#footerLeft a {
+footer a {
     color: white;
 }
 
-footer p#footerCenter a {
-    color: white;
-    text-decoration: none;
+footer #footerLeft a:hover{
+    background: linear-gradient(to right, #09ff00 10%, #00ffff 30%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer #footerCenter a:hover{
+    background: linear-gradient(to right, #eeff00 10%, #ff7b00 30%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

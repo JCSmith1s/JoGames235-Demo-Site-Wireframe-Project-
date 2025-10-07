@@ -63,7 +63,7 @@ section#leftColumn1 img{
 }
 
 section#leftColumn2 {
-    float: left;
+    float: right;
     width: 100%;
     text-align: center;
 }
@@ -73,7 +73,7 @@ section#leftColumn2 p {
 }
 
 section#leftColumn2 img{
-    float: right;
+    float: left;
     width: 50%;
     height: 100%;
     margin-top: 20px;
@@ -109,13 +109,17 @@ footer h1 {
     text-align: center;
 }
 
-footer p#footerLeft a {
+footer a {
     text-decoration: none;
 }
 
-footer p#footerCenter {
-    text-align: center;
+#footerLeft {
+    width: 200px;
 }
-footer p#footerCenter a {
-    text-decoration: none;
+
+#footerCenter {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    translate: 545px -120px;
 }

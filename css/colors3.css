@@ -1,3 +1,11 @@
+
+#navigation1 {
+    background: linear-gradient(to right, #ff6200 10%, #d53eff 30%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 body {
     background-image: linear-gradient(to right, #3D0000 10%, #220929 50%);
 }
