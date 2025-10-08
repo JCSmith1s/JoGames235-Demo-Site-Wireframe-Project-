@@ -1,7 +1,83 @@
 /* Hi :] */
 
+/*header styles*/
+
+nav.horizontalNavigation ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav.horizontalNavigation ul li {
+    float: left;
+    padding: 14px 126.12px;
+}
+
+nav.horizontalNavigation ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*body styles*/
+
+body > header > a > img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    max-height: 200px;
+}
+body {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+}
+
+
 section#demoImage img {
     height: 100%;
     max-width: 400px;
     max-height: 650px;
+    padding-left: 420px;
+}
+
+/* footer styles */
+
+footer {
+    margin-bottom: -15px;
+}
+
+footer h1 {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#footerLeft {
+    width: 200px;
+    margin-left: 75px;
+    text-align: center;
+}
+
+#footerCenter {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+}
+
+.Bronx {
+    translate: 545px -120px;
+}
+
+.Serpent {
+text-align: center;
+    width: 200px;
+    position: absolute;
+    translate: 545px -85px;
 }

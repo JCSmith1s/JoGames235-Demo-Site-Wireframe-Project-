@@ -19,6 +19,13 @@ body > article {
     -webkit-text-fill-color: transparent;
 }
 
+#navigation2 {
+    background: linear-gradient(to right, #6AC6FF 30%, #FF97F6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 body > header > nav.horizontalNavigation li {
     background-color: #441452;
     color: white;

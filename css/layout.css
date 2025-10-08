@@ -26,7 +26,7 @@ nav.horizontalNavigation ul {
 
 nav.horizontalNavigation ul li {
     float: left;
-    padding: 14px 178.9px;
+    padding: 14px 126.12px;
 }
 
 nav.horizontalNavigation ul li a {
@@ -105,6 +105,9 @@ section#centerImage {
 
 /* footer styles */
 
+footer {
+    margin-bottom: -15px;
+}
 footer h1 {
     text-align: center;
 }
@@ -115,11 +118,23 @@ footer a {
 
 #footerLeft {
     width: 200px;
+    margin-left: 75px;
+    text-align: center;
 }
 
 #footerCenter {
     text-align: center;
     width: 200px;
     position: absolute;
+}
+
+.Bronx {
     translate: 545px -120px;
+}
+
+.Serpent {
+text-align: center;
+    width: 200px;
+    position: absolute;
+    translate: 545px -85px;
 }
