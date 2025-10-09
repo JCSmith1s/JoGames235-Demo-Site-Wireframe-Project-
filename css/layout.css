@@ -1,4 +1,18 @@
 
+/*font styles*/
+
+@font-face {
+    font-family: 'BBH';
+    src: url(../fonts/BBHSansHegarty-Regular.ttf) format('truetype');
+
+    font-family: 'Chango';
+    src: url(../fonts/Chango-Regular.ttf) format('truetype')
+}
+
+
+
+
+
 /* Body styles */
 body > header > a > img {
     display: block;
@@ -26,7 +40,9 @@ nav.horizontalNavigation ul {
 
 nav.horizontalNavigation ul li {
     float: left;
-    padding: 14px 126.12px;
+    padding: 14px 122.37px;
+    font-family: "BBH", sans-serif;
+    font-style: bold;
 }
 
 nav.horizontalNavigation ul li a {
@@ -106,10 +122,16 @@ section#centerImage {
 /* footer styles */
 
 footer {
+    padding-bottom: 1px;
     margin-bottom: -15px;
 }
 footer h1 {
     text-align: center;
+
+    /*Changes the font to be the Chango font*/
+    font-family: "Chango", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 footer a {
@@ -120,12 +142,14 @@ footer a {
     width: 200px;
     margin-left: 75px;
     text-align: center;
+    font-family: "BBH", sans-serif;
 }
 
 #footerCenter {
     text-align: center;
     width: 200px;
     position: absolute;
+    font-family: "BBH", sans-serif;
 }
 
 .Bronx {

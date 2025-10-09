@@ -57,6 +57,15 @@ footer {
     color: white;
 }
 
+footer h1 {
+    background: linear-gradient(to left, rgb(255, 166, 0) 40%, rgb(0, 225, 255) 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+    font-style: bold;
+}
+
 footer a {
     color: white;
 }
