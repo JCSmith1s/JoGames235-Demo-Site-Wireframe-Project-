@@ -6,9 +6,8 @@
     src: url(../fonts/BBHSansHegarty-Regular.ttf) format('truetype');
 
     font-family: 'Chango';
-    src: url(../fonts/Chango-Regular.ttf) format('truetype')
+    src: url(../fonts/Chango-Regular.ttf) format('.ttf')
 }
-
 
 
 
@@ -76,6 +75,7 @@ section#leftColumn1 img{
     height: 100%;
     margin-top: 20px;
     max-height: 600px;
+    border-radius: 50%;
 }
 
 section#leftColumn2 {
@@ -91,9 +91,10 @@ section#leftColumn2 p {
 section#leftColumn2 img{
     float: left;
     width: 50%;
-    height: 100%;
+    height: 50%;
     margin-top: 20px;
     max-height: 600px;
+    border-radius: 50%;
 }
 
 
@@ -111,12 +112,13 @@ section#rightColumn img {
 }
 
 /* centered column styles */
-section#centerImage {
+section#centerImage img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
     height: 100%;
+    border-radius: 50%;
 }
 
 /* footer styles */
@@ -148,11 +150,11 @@ footer a {
 #footerCenter {
     text-align: center;
     width: 200px;
-    position: absolute;
     font-family: "BBH", sans-serif;
 }
 
 .Bronx {
+    position: absolute;
     translate: 545px -120px;
 }
 

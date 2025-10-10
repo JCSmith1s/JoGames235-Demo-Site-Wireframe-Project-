@@ -12,14 +12,14 @@ body > article {
 
 /* Navigation background colors */
 
-#navigation1 {
+#navigation1:hover {
     background: linear-gradient(to right, #ff6200 10%, #FF97F6 30%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-#navigation2 {
+#navigation2:hover {
     background: linear-gradient(to right, #6AC6FF 30%, #FF97F6);
     -webkit-background-clip: text;
     background-clip: text;

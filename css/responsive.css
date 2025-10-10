@@ -1,0 +1,48 @@
+
+/*Work in progress (W.I.P.)*/
+
+/*When screen is less then 480px change formatting to fit everything on the phone*/
+
+@media only screen and (max-width: 480px) {
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+        max-width: fit-content;
+        width: 100%;
+    }
+
+    section#centerImage {
+        margin: 0 auto;
+    }
+
+    section#leftColumn1 img {
+        margin-right: 121px;
+    }
+
+    section#leftColumn2 img {
+        margin-left: 121px;
+
+    }
+
+    nav.horizontalNavigation li {
+        flex-direction:row;
+        width: 100%;
+        margin: none;
+    }
+
+    #footerCenter {
+        float: left;
+    }
+
+    nav.horizontalNavigation ul li a {
+        text-align: center;
+    }
+
+    nav.horizontalNavigation li {
+        text-align: center;
+    }
+
+}

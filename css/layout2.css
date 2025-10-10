@@ -74,6 +74,7 @@ section#leftColumn1 p {
 section#leftColumn1 iframe{
     float: right;
     padding-top: 65px;
+    border-radius: 45px
 }
 
 section#leftColumn2 {
@@ -89,6 +90,7 @@ section#leftColumn2 p {
 section#leftColumn2 iframe{
     float: left;
     padding-top: 37px;
+    border-radius: 45px ;
 }
 
 
@@ -106,12 +108,13 @@ section#rightColumn img {
 }
 
 /* centered column styles */
-section#centerImage {
+section#centerImage img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
     height: 100%;
+    border-radius: 50%;
 }
 
 /* footer styles */

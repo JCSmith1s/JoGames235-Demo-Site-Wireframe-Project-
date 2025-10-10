@@ -1,12 +1,12 @@
 
-#navigation1 {
+#navigation1:hover {
     background: linear-gradient(to right, #ff6200 10%, #FF97F6 30%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-#navigation2 {
+#navigation2:hover {
     background: linear-gradient(to right, #6AC6FF 30%, #FF97F6);
     -webkit-background-clip: text;
     background-clip: text;
@@ -25,7 +25,7 @@ body > header > nav.horizontalNavigation li a {
 
 
 html {
-    background-image: linear-gradient(to right, #3D0000 10%, #220929 50%);
+    background-image: linear-gradient(to right, #053d00 10%, #023b3d 50%);
 }
 
 body {
@@ -47,7 +47,7 @@ h2 {
 /* footer background color */
 
 footer {
-    background-image: linear-gradient(to right, #0e2909 20%, #694d00 );
+    background-image: linear-gradient(to left, #0e2909 20%, #694d00 );
     color: white;
 }
 
