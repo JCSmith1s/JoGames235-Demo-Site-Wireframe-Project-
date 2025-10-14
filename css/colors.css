@@ -3,7 +3,7 @@
 body {
     background-image: linear-gradient(to right, #002402, #002D3B);
 }
-
+/* Makes changes to the article colors */
 body > article {
     background-color: #220929;
     color: white;
